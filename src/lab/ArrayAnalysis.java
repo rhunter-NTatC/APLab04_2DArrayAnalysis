@@ -9,37 +9,87 @@ package lab;
 
 public class ArrayAnalysis {
 
-
+	
+	//#1
 	public static int[][] createRandom(int row, int column, int min, int max){
 		
-		int[][] nums = new int[row][column];  //create array with given dimensions
 		
-		for (int i = 0; i < row; i++) {  //iterate (traverse) through rows
-			for (int j = 0; j < column; j++) {  //traverse through columns
-				
-				nums[i][j] = (int) (Math.random() * (max - min + 1)) + min; //set all spots to 1
-				
-			}
-			
-		}
-		
-		return nums;
+		return null;
 	}
 	
 	
+	//#2
 	public static void printArray(int[][] arr)  {
 		
-		for (int i = 0; i < arr.length; i++) {  //iterate (traverse) through rows
-			for (int j = 0; j < arr[i].length; j++) {
-				System.out.printf("%7d", arr[i][j]);
-			}
-			System.out.println();
-		}
+		
 	
 	}
 	
 	
+	//#3
+	public static int sumTotal(int[][] arr) {
+		
+		
+		return 0;
+	}
 	
+	
+	//#4
+	public static double average(int[][] arr) {
+		
+		
+		
+		return 0;
+	}
+	
+	
+	//#5
+	public static int findMin(int[][] arr) {
+		
+		
+		return 0;
+	}
+	
+	
+	//#6
+	public static int findMax(int[][] arr) {
+		
+		
+		return 0;
+	}
+	
+	
+	//#7
+	public static int[][] diffArrays(int[][] arr1, int[][] arr2){
+		
+		
+		
+		return null;
+	}
+	
+	
+	//#8
+	public static int[][] transposeRow(int[][] arr1, int dist){
+		
+		
+		return null;
+	}
+	
+	
+	//#9
+	public static int sum3D(int[][][] arr) {
+		
+		
+		return 0;
+	}
+	
+	
+	//#10
+	public static double average3D(int[][][] arr) {
+		
+		
+		return 0;
+	}
 	
 	
 	

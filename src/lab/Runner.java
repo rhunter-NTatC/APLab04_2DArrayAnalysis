@@ -6,9 +6,9 @@ public class Runner {
 		
 		ArrayAnalysis analysis = new ArrayAnalysis();
 		
-		int[][] arr1 = analysis.createRandom(20, 8, -45, 45);
+		int[][] arr1 = analysis.createRandom(6, 3, -2, 10);
 		
-		analysis.printArray(arr1);
+		
 		
 		
 		
